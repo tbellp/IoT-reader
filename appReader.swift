@@ -6,7 +6,7 @@
 //  Copyright (c) 2017 Thomas Bell. All rights reserved.
 //
 
-import CMMotionManager
+
 //
 let manager = CMMotionManager()
 //print("A new instance was created!")
