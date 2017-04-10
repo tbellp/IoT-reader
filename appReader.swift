@@ -16,9 +16,10 @@ let manager = CMMotionManager()
     manager.startAccelerometerUpdates(to: .main) {
         [weak self] (data: CMAccelerometerData?, error: Error?) in
           
-        // if let acceleration = data?.acceleration {
+        /* if let acceleration = data?.acceleration {
            // let rotation = atan2(acceleration.x, acceleration.y) - M_PI
-           // self?.imageView.transform = CGAffineTransform(rotationAngle: rotation)
+            self?.imageView.transform = CGAffineTransform(rotationAngle: rotation)
+      */
         }
     }
 }
